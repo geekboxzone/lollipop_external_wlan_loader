@@ -9,7 +9,7 @@ PRODUCT_COPY_FILES += \
         external/wlan_loader/firmware/nvram_B23.txt:system/etc/firmware/nvram_B23.txt \
         external/wlan_loader/firmware/sd8686.bin:system/etc/firmware/sd8686.bin \
         external/wlan_loader/firmware/sd8686_helper.bin:system/etc/firmware/sd8686_helper.bin \
-        external/wlan_loader/firmware/sd8686_helper.bin:system/etc/firmware/fw_bcm4319.bin \
-        external/wlan_loader/firmware/sd8686_helper.bin:system/etc/firmware/nvram.txt        
+        external/wlan_loader/firmware/fw_bcm4319.bin:system/etc/firmware/fw_bcm4319.bin \
+        external/wlan_loader/firmware/nvram.txt:system/etc/firmware/nvram.txt
 
 
