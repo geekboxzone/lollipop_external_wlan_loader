@@ -1,7 +1,6 @@
 
 # wifi firmware
 PRODUCT_COPY_FILES += \
-        external/wlan_loader/wlan.ko:system/lib/modules/wlan.ko \
         external/wlan_loader/iwconfig:system/bin/iwconfig \
         external/wlan_loader/iwlist:system/bin/iwlist \
 
