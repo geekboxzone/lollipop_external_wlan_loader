@@ -61,7 +61,7 @@ pa1hib2=0x4c
 sromrev=3
 # 2.4G Tx Power
 maxp2ga0=76
-cck2gpo=0x4444
+cck2gpo=0x0000
 ofdm2gpo=0x66666666
 mcs2gpo0=0x8888
 mcs2gpo1=0x8888
