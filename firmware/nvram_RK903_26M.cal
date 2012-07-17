@@ -63,8 +63,8 @@ sromrev=3
 maxp2ga0=76
 cck2gpo=0x0000
 ofdm2gpo=0x66666666
-mcs2gpo0=0xaaaa
-mcs2gpo1=0xaaaa
+mcs2gpo0=0x8888
+mcs2gpo1=0x8888
 # 5G Tx Power
 maxp5ga0=80
 maxp5gla0=80
