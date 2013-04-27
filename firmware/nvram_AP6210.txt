@@ -1,4 +1,4 @@
-#AP6210_NVRAM_V1.2_03202013 for RK Dongle
+#AP6210_NVRAM_V1.2_03192013
 manfid=0x2d0
 prodid=0x492
 vendid=0x14e4
@@ -19,9 +19,9 @@ aa2g=1
 ag0=2
 maxp2ga0=74
 cck2gpo=0x2222
-ofdm2gpo=0x33333333
-mcs2gpo0=0x5555
-mcs2gpo1=0x5555
+ofdm2gpo=0x44444444
+mcs2gpo0=0x6666
+mcs2gpo1=0x6666
 pa0maxpwr=56
 
 #P207 PA params
@@ -54,3 +54,4 @@ btc_flags=0x6
 btc_params0=5000
 btc_params1=1000
 btc_params6=63
+

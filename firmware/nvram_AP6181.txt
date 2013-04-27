@@ -1,4 +1,4 @@
-#AP6181_NVRAM_V1.2_03202013 for RK Dongle
+#AP6181_NVRAM_V1.1_01152013
 #adjuest PA parameter for g/n mode
 manfid=0x2d0
 prodid=0x492
@@ -18,7 +18,7 @@ macaddr=00:90:4c:07:71:12
 aa2g=1
 ag0=2
 maxp2ga0=74
-cck2gpo=0x3333
+cck2gpo=0x2222
 ofdm2gpo=0x66666666
 mcs2gpo0=0x7777
 mcs2gpo1=0x7777
@@ -49,10 +49,3 @@ noise_cal_po_2g=0
 swctrlmap_2g=0x04040404,0x02020202,0x02020202,0x010101,0x1ff
 temp_add=29767
 temp_mult=425
-#temp_q=10
-#initxidx2g=45
-#tssitime=1
-#rfreg033=0x19
-#rfreg033_cck=0x1f
-#cckPwrIdxCorr=-8
-#spuravoid_enable2g=1
