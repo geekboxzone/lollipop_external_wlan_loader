@@ -97,6 +97,7 @@ txalpfbyp2g=1
 cckdigfilttype=21
 #ofdmdigfilttype=2
 
-sd_gpout=0
-sd_gpval=1
-sd_oobonly=1
+#sd_gpout=0
+#sd_gpval=1
+#sd_oobonly=1
+muxenab=0x10
