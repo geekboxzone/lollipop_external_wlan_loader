@@ -1,4 +1,4 @@
-#AP6476_NVRAM_V1.0_12062012
+#AP6476_NVRAM_V1.2_09042013
 manfid=0x2d0
 prodid=0x492
 vendid=0x14e4
@@ -8,7 +8,6 @@ boardtype=0x0598
 boardrev=0x1207
 boardnum=777
 xtalfreq=26000
-#boardflags=0xa00
 boardflags=0x80201
 boardflags2=0x80
 sromrev=3
@@ -32,10 +31,13 @@ ccode=ALL
 rssismf2g=0xa
 rssismc2g=0x3
 rssisav2g=0x7
-#triso2g=8
 triso2g=0
 noise_cal_enable_2g=0
-#swctrlmap_2g=0x04040404,0x02020202,0x04040404,0x010101,0x1ff
 swctrlmap_2g=0x04040404,0x02020202,0x02020202,0x010101,0x1ff
 temp_add=29767
 temp_mult=425
+
+btc_flags=0x6
+btc_params0=5000
+btc_params1=1000
+btc_params6=63
