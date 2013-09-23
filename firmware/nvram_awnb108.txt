@@ -44,3 +44,9 @@ bphyscale=17
 cckPwrIdxCorr=-15
 pacalidx2g=45
 txgaintbl=1
+
+# OOB setting
+sd_gpout=0
+sd_gpval=0
+sd_oobonly=1
+# muxenab=0x10
