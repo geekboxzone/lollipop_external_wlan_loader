@@ -1,4 +1,4 @@
-#AP6354_NVRAM_V1.3_20141103
+#AP6354_NVRAM_V1.4_20150323.txt
 
 # Sample variables file for BCM94354 WLBGA iPA, iLNA board with SDIO for production package
 NVRAMRev=$Rev: 373428 $
@@ -11,7 +11,7 @@ boardflags=0x02400201
 #boardflags2=0xc0800000
 boardflags2=0x00802000
 
-boardflags3=0x4800000a
+boardflags3=0x4800010a
 #boardnum=57410 
 macaddr=00:90:4c:16:70:01
 ccode=0
@@ -157,3 +157,8 @@ rssicorrnorm5g_c1=1,2,3,2,2,2,7,7,8,7,7,8
 ltecxmux=0x534201
 
 muxenab=0x10
+
+swctrlmap_2g=0x00001040,0x00004010,0x00004010,0x200010,0xff
+swctrlmap_5g=0x00000202,0x00000101,0x00000101,0x000000,0x47
+swctrlmapext_5g=0x00000000,0x00000000,0x00000000,0x000000,0x000
+swctrlmapext_2g=0x00000000,0x00000000,0x00000000,0x000000,0x000
